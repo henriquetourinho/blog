@@ -1,5 +1,16 @@
 body{background-color:#fafafa;margin:0;padding:0;color:#20202c;text-align:justify;font-family:ubuntu;font-size:17px}
 
+#menu ul li{display:inline}
+
+#menu ul li a{padding:1px;display:inline-block;color:#f7f7f7;text-decoration:none;border-bottom:0 solid #f7f7f7}
+
+#menu ul li a:hover{color:#fdc42d}
+
+#logo ul{max-width:100%;height:auto;padding:0;margin:0;background-image:linear-gradient(to right,#0060ef,#000,#0060ef);list-style:none}
+
+.logo{max-width:15%;display:block;margin-left:auto;margin-right:auto}
+
+#menu ul{text-align:center;font-weight:700;text-transform:uppercase;max-width:100%;height:auto;font-size:14px;padding:7px;margin:0;background:#0060ef;list-style:none}
 
 #timeline{margin-left:auto;margin-right:auto;margin-top:0em;max-width:800px;min-width:10px}
 
@@ -9,28 +20,16 @@ a:hover{text-decoration:none;color:#0060ef}
 
 a.continuar-lendo{padding:2px 5px;margin-left:4.3%;font-size:12px;font-weight:700;text-transform:uppercase}
 
-#menu ul{text-align:center;font-weight:700;text-transform:uppercase;max-width:100%;height:auto;font-size:14px;padding:7px;margin:0;background:#0060ef;list-style:none}
-
-#menu ul li{display:inline}
-
-#menu ul li a{padding:1px;display:inline-block;color:#f7f7f7;text-decoration:none;border-bottom:0 solid #f7f7f7}
-
-
-#menu ul li a:hover{color:#fdc42d}
-
-#logo ul{max-width:100%;height:auto;padding:0;margin:0;background-image:linear-gradient(to right,#0060ef,#000,#0060ef);list-style:none}
-
-.logo{max-width:15%;display:block;margin-left:auto;margin-right:auto}
-
-
 p{margin-right:5%;margin-left:5%;font-size:17px;}
 
-h1{text-align:left;margin-right:5%;margin-left:5%;font-weight:700;font-size:17px}
+h1{text-align:left;margin-right:5%;margin-left:5%;font-weight:700;font-size:17px;    text-transform:uppercase;}
 
-h2{text-align:left;margin-right:5%;margin-left:5%;font-weight:700;font-size:17px}
+h2{text-align:left;margin-right:5%;margin-left:5%;font-weight:700;font-size:17px;    text-transform:uppercase;}
 
+#direitos-autorais {clear:both;text-align:center;color:#52565a;font-weight:700;font-size:12px;margin-bottom:0.9em;}
 
 @media only screen and (max-width:600px){.logo{max-width:28%;display:block;margin-left:auto;margin-right:auto}}
+
 @media only screen and (max-width: 600px) {
 a.continuar-lendo {
     padding: 2px 5px;
@@ -39,17 +38,3 @@ a.continuar-lendo {
     font-weight: 700;
     text-transform: uppercase;
 }}
-
-
-#direitos-autorais{clear:both;text-align:center;color:#52565a;font-weight:700;font-size:.7em;margin-bottom:2em}
-
-
-
-
-
-
-
-
-
-
-
